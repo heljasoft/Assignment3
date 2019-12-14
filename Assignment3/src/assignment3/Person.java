@@ -15,6 +15,15 @@ public class Person {
         this.datum_rodjenja = datum_rodjenja;
         this.mjesto_rodjenja = mjesto_rodjenja;
     }
+
+    @Override
+    public String toString() {
+        String ispis = super.toString();
+        return ispis + "\nIme: "+ ime + "\nPrezime: "+ prezime + "\nDatum rodjenja: "
+                + datum_rodjenja + "\nMjesto rodjenja: "+ mjesto_rodjenja;
+    }
+
+
+   
     
-     
 }
